@@ -5,7 +5,7 @@ OwnTree is a self-hosted, static alternative to Linktree. Point your audience to
 ![Screenshot of OwnTree profile page](assets/owntree.png)
 
 ## Highlights
-- Static assets only (`index.html`, `config.json`, `styles.css`, `main.js`); no build step or server required.
+- Static assets only (`index.html`, `config.json`, `styles.css`, `main.js`); no build step required.
 - Privacy-first: ships without trackers, pixels, or external analytics.
 - Config-driven layout that keeps your links, socials, and calls-to-action in one portable file.
 - Deploy anywhere that can serve static files—GitHub Pages, Nginx, S3, Cloudflare Pages, Netlify, FTP, you name it.
