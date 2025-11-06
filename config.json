@@ -1,23 +1,36 @@
 {
   "theme": "dark",
   "identity": {
-    "name": "Branden Espinoza",
-    "tagline": "Product builder. Husband & Father. Localist.",
+    "name": "Homer Simpson",
+    "tagline": "Nuclear Engineer. Pleb.",
     "avatar": "assets/avatar.png"
   },
   "meta": {
-    "title": "Homer Simposn",
-    "description": "Product builder, husband, and father. Exploring economic decentralization and sovereign technology.",
-    "ogImage": "assets/avatar.png"
+    "title": "Homer Simpson",
+    "description": "Nuclear Engineer. Pleb.",
+    "url": "https://thesimpsons.com",
+    "siteName": "Homer Simpson",
+    "type": "profile",
+    "locale": "en_US",
+    "ogImage": "assets/avatar.png",
+    "ogImageAlt": "Portrait of Homer Simpson",
+    "twitterCard": "summary_large_image",
+    "twitterSite": "@homersimpson",
+    "twitterCreator": "@homersimpson",
+    "twitterImage": "assets/avatar.png",
+    "twitterImageAlt": "Portrait of Homer Simpson",
+    "themeColor": "#161616"
   },
   "primaryActions": [
     {
       "label": "Email me",
-      "url": "mailto:simpson.homer@gmail.com"
+      "url": "mailto:simpson.homer@gmail.com",
+      "clipboard": "simpson.homer@gmail.com"
     },
     {
       "label": "Call me",
-      "url": "tel:+15558675309"
+      "url": "tel:+15558675309",
+      "clipboard": "+1 (555) 867-5309"
     },
     {
       "label": "Résumé/CV",
@@ -30,7 +43,7 @@
       "links": [
         {
           "label": "LinkedIn | @homersimpson",
-          "url": "https://linkedin.com/in/homersimposn",
+          "url": "https://linkedin.com/in/homersimpson",
           "subtext": "My professional history and network."
         },
         {
@@ -40,12 +53,13 @@
         },
         {
           "label": "Nostr | @homersimpson",
-          "url": "https://nostr.com/nprofile1qqszwxevdmwcwcfwdpfs3lc3sjqcjnwc7t25dgy3kghrvc9sgvmcguspzamhxue69uhky6t5vdhkjmn9wgh8xmmrd9skctc02adl4",
+          "url": "https://nostr.com/npub12341234",
           "subtext": "Slightly more filterered thoughts."
         },
         {
           "label": "Telegram | @homersimpson",
           "url": "https://t.me/homersimpson",
+          "clipboard": "@homersimpson",
           "subtext": "Chat with me directly."
         }
       ]
@@ -54,13 +68,13 @@
       "title": "Projects",
       "links": [
         {
-          "label": "The Simpsons",
-          "url": "https://www.thesimpsons.com",
-          "subtext": "Salt-soaked Trop Rock from the Crystal Coast."
+          "label": "Bitcoin",
+          "url": "https://www.bitcoin.org",
+          "subtext": "Real money."
         },
         {
           "label": "Github",
-          "url": "https://github.com/homersimposn",
+          "url": "https://github.com/homersimpson",
           "subtext": "Some open source work and contributions."
         }
       ]
@@ -69,6 +83,6 @@
   "footer": {
     "message": "Nos qui orimur cum aestus recidit.",
     "message_link": "https://translate.google.com/?sl=auto&tl=en&text=Nos%20qui%20orimur%20cum%20aestus%20recidit.&op=translate",
-    "copyright": "© 2025 Branden Espinoza"
+    "copyright": "© 2025 Homer Simpson"
   }
 }

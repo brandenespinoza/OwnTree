@@ -151,7 +151,8 @@ body {
     font-weight: 500;
     transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
     text-align:center;
-    color: var(--accent)
+    color: var(--accent);
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -200,4 +201,30 @@ body {
 #footer a:hover {
     color: var(--accent);
     text-decoration: underline;
+}
+
+.toast {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%) translateY(16px);
+    background-color: var(--surface);
+    color: var(--text);
+    border-radius: var(--radius);
+    padding: 10px 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 1000;
+}
+
+.toast.is-visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.toast.toast--error {
+    background-color: #b91c1c;
+    color: #fff;
 }
